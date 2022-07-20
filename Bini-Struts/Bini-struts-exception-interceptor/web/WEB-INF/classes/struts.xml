@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+ Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>  
+<package name="aa" extends="struts-default">  
+  
+<global-results>  
+<result name="myresult">globalresult.jsp</result>  
+</global-results>  
+  
+<global-exception-mappings>  
+<exception-mapping result="myresult" exception="java.lang.Exception"></exception-mapping>  
+</global-exception-mappings>  
+  
+<action name="login" class="p1.Login">  
+<result>welcome.jsp</result>  
+<result name="error">error.jsp</result>  
+</action>  
+  
+</package>  
+</struts>

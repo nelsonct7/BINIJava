@@ -1,0 +1,1 @@
+<a href="viewrecords">View All Records</a>  

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>   
+  
+<!DOCTYPE tiles-definitions PUBLIC   
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+ "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">   
+  
+<tiles-definitions>  
+     
+   <definition name="login-success" template="/layoutmanager.jsp">   
+   <put-attribute name="title" value="Welcome Page"/>   
+   <put-attribute name="body" value="/login-success.jsp"/>   
+   </definition>  
+     
+   <definition name="login-error" template="/layoutmanager.jsp">   
+   <put-attribute name="title" value="Login Error"/>   
+   <put-attribute name="body" value="/login-error.jsp"/>   
+   </definition>   
+     
+</tiles-definitions>  
